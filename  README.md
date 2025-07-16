@@ -67,19 +67,18 @@ Sample confusion matrix:
 
 ### 💡 5. Predictions
 
-```python
 predict_sentiment("Celebrity wedding announcement") # 👍 Like
 predict_sentiment("Crime rate increases in urban areas") # 👎 Dislike
 
 
-🛠️ Requirements
+## 🛠️ Requirements
 
 To run the code locally:  pip install pandas numpy
 
 Or launch the notebook in Google Colab for a hassle-free experience.
 
 
-🔍 Example Predictions
+## 🔍 Example Predictions
 
 Article Snippet                                    Prediction
 “New yoga techniques help reduce stress”            👍 Like
@@ -88,7 +87,7 @@ Article Snippet                                    Prediction
 “Crime rate increases in urban areas”               👎 Dislike
 
 
-📦 Reusability
+## 📦 Reusability
 
 You can easily load the saved model and use it for new predictions:
 
@@ -99,16 +98,11 @@ text = "New AI tech improves daily life"
 print(predict_sentiment(text, model))
 
 
-🤝 Contributing
+## 🤝 Contributing
 
 Have a better dataset, improvements to preprocessing, or a new model idea (like SVM or BERT)? Feel free to open a PR or issue!
 
 
-📜 License
-
-This project is open-source under the MIT License.
-
-
-🙋‍♂️ Author
+## 🙋‍♂️ Author
 
 Made with ❤️ by Nishant Kaushik
